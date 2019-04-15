@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@color/white"
     android:orientation="vertical" >
 
     <ImageView
@@ -12,4 +13,220 @@
         android:scaleType="matrix"
         android:src="@drawable/head_logo" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:paddingLeft="@dimen/main_layout_margin"
+        android:scaleType="matrix"
+        android:src="@drawable/a01" />
+    
+  <LinearLayout
+      android:id="@+id/linearLayout15"
+      android:layout_width="match_parent"
+      android:layout_height="10dp"
+      android:layout_weight="0.08"
+      android:orientation="vertical" >
+
+    </LinearLayout>
+   
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="60dp"
+	    android:layout_weight="0.01"
+	    android:background="@color/white"
+	    android:orientation="horizontal" >
+
+ 	<LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:orientation="vertical"  >
+    </LinearLayout>
+  
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="158dp"
+        android:layout_height="52dp"
+        android:background="@color/syn_book_bg"
+        android:text="@string/syn_tech" />
+
+
+	<LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="14dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+     <Button
+         android:id="@+id/button2"
+         android:layout_width="120dp"
+         android:layout_height="52dp"
+         android:background="@color/exam_and_account_bg"
+         android:text="@string/exam_room" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="14dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+ </LinearLayout>   
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:layout_weight="0.03"
+	    android:background="@color/white"
+	    android:orientation="horizontal" >
+
+
+	<LinearLayout
+        android:id="@+id/LinearLayout4"
+        android:layout_width="14dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+	    <Button
+	        android:id="@+id/button3"
+	        android:layout_width="113dp"
+	        android:layout_height="52dp"
+	        android:background="@color/famous_book_bg"
+	        android:text="@string/famous_book" />
+
+	<LinearLayout
+        android:id="@+id/LinearLayout5"
+        android:layout_width="14dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+	    <Button
+	        android:id="@+id/button4"
+	        android:layout_width="164dp"
+	        android:layout_height="52dp"
+	        android:background="@color/best_head_bg"
+	        android:text="@string/best_head" />
+
+		<LinearLayout
+		    android:id="@+id/LinearLayout6"
+		    android:layout_width="26dp"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical" >
+
+    </LinearLayout> </LinearLayout>   
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:layout_weight="0.03"
+	    android:background="@color/white"
+	    android:orientation="horizontal" >
+
+<LinearLayout
+        android:id="@+id/LinearLayout7"
+        android:layout_width="14dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="106dp"
+        android:layout_height="52dp"
+        android:layout_weight="1.49"
+        android:background="@color/user_manager_bg"
+        android:text="@string/user_manager" />
+
+	<LinearLayout
+        android:id="@+id/LinearLayout8"
+        android:layout_width="14dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_weight="0.77"
+        android:background="@color/my_download_bg"
+        android:text="@string/add_account" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout9"
+        android:layout_width="14dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_weight="1.01"
+        android:background="@color/sys_setting_bg"
+        android:text="@string/my_download" />
+
+  
+    <LinearLayout
+        android:id="@+id/LinearLayout10"
+        android:layout_width="14dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_weight="0.01"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout11"
+        android:layout_width="14dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="106dp"
+        android:layout_height="52dp"
+        android:layout_weight="0.52"
+        android:background="@color/about_us_bg"
+        android:text="@string/about_us" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout12"
+        android:layout_width="14dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="108dp"
+        android:layout_height="52dp"
+        android:layout_weight="4.20"
+        android:background="@color/base_bar_bottom_color"
+        android:text="@string/sys_setting" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout13"
+        android:layout_width="14dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout14"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:orientation="vertical" >
+
+    </LinearLayout>
 </LinearLayout>
