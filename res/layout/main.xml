@@ -190,14 +190,14 @@
         android:layout_height="match_parent"
         android:orientation="vertical" >
     </LinearLayout>
-
+
     <Button
         android:id="@+id/button9"
         android:layout_width="106dp"
         android:layout_height="52dp"
         android:layout_weight="0.52"
-        android:background="@color/about_us_bg"
-        android:text="@string/about_us" />
+        android:background="@color/yellow_bg"
+        android:text="@string/sys_setting" />
 
     <LinearLayout
         android:id="@+id/LinearLayout12"
@@ -205,14 +205,14 @@
         android:layout_height="match_parent"
         android:orientation="vertical" >
     </LinearLayout>
-
+
     <Button
         android:id="@+id/button8"
         android:layout_width="108dp"
         android:layout_height="52dp"
         android:layout_weight="4.20"
-        android:background="@color/base_bar_bottom_color"
-        android:text="@string/sys_setting" />
+        android:background="@color/about_us_bg"
+        android:text="@string/about_us" />
 
     <LinearLayout
         android:id="@+id/LinearLayout13"
