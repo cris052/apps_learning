@@ -132,7 +132,7 @@ public final class R {
         public static final int LinearLayout7=0x7f08000d;
         public static final int LinearLayout8=0x7f08000f;
         public static final int LinearLayout9=0x7f080011;
-        public static final int button1=0x7f080003;
+        public static final int button1=0x7f080000;
         public static final int button2=0x7f080006;
         public static final int button3=0x7f080009;
         public static final int button4=0x7f08000b;
@@ -141,15 +141,24 @@ public final class R {
         public static final int button7=0x7f080012;
         public static final int button8=0x7f080017;
         public static final int button9=0x7f080015;
-        public static final int editText1=0x7f080002;
-        public static final int imageView1=0x7f080001;
-        public static final int linearLayout1=0x7f080000;
+        public static final int editText1=0x7f080003;
+        public static final int imageView1=0x7f080002;
+        public static final int linearLayout1=0x7f080001;
         public static final int linearLayout15=0x7f080004;
     }
     public static final class layout {
-        public static final int activity_about_us=0x7f030000;
-        public static final int activity_find_pwd=0x7f030001;
-        public static final int main=0x7f030002;
+        public static final int about_us=0x7f030000;
+        public static final int activity_login=0x7f030001;
+        public static final int activity_pay=0x7f030002;
+        public static final int add_account=0x7f030003;
+        public static final int best_head=0x7f030004;
+        public static final int exam_room=0x7f030005;
+        public static final int famous_book=0x7f030006;
+        public static final int main=0x7f030007;
+        public static final int my_download=0x7f030008;
+        public static final int sync_tech=0x7f030009;
+        public static final int sys_setting=0x7f03000a;
+        public static final int user_manager=0x7f03000b;
     }
     public static final class string {
         public static final int about_us=0x7f06000b;

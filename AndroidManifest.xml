@@ -20,6 +20,18 @@
         </activity>
         
         <activity android:name="activity.AboutActivity" />
+        <activity android:name="activity.BaseActivity" />
+        <activity android:name="activity.BestHeadActivity" />
+        <activity android:name="activity.ExamActivity" />
+        <activity android:name="activity.FamousBookActivity" />
+        <activity android:name="activity.FindPwdActivity" />
+        <activity android:name="activity.LoginActivity" />
+        <activity android:name="activity.MyDownloadActivity" />
+        <activity android:name="activity.PayAccountActivity" />
+        <activity android:name="activity.PayOkActivity" />
+        <activity android:name="activity.RegisterActivity" />
+        <activity android:name="activity.SettingActivity" />
+        <activity android:name="activity.SyncTechActivity" />
     </application>
 
 </manifest>
