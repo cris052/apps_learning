@@ -51,8 +51,6 @@
     </LinearLayout>
   
 
-
-
     <Button
         android:id="@+id/button1"
         android:layout_width="158dp"
