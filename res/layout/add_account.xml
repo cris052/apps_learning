@@ -13,13 +13,6 @@
     android:background="@color/base_bg_color"
     android:orientation="horizontal" >
 
-    <Button
-        android:id="@+id/btn_back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="13dp"
-        android:background="@color/green_bg"
-        android:contentDescription="@string/app_name" />
 
 	<ImageView
         android:id="@+id/iv_title"
@@ -58,11 +51,11 @@
         android:layout_height="0dp"
         android:layout_weight="3"
         android:orientation="vertical" >
-
+
         <LinearLayout
             android:id="@+id/linearLayout1"
             android:layout_width="match_parent"
-            android:layout_height="74dp"
+            android:layout_height="40dp"
             android:orientation="vertical" >
 
         </LinearLayout>
@@ -105,12 +98,12 @@
             android:orientation="horizontal" >
 
             <Button
-                android:id="@+id/btn_pay"
+                android:id="@+id/button1"
                 style="@style/UserButtonStyle"
                 android:text="@string/pay_account_ok" />
 
             <Button
-                android:id="@+id/btn_reset"
+                android:id="@+id/button2"
                 style="@style/UserButtonStyle"
                 android:layout_alignParentRight="true"
                 android:text="@string/reset" />

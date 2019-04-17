@@ -26,6 +26,7 @@ public class Apps_zxy_learningActivity extends Activity implements OnClickListen
 	private Button button7;
 	private Button button8;
 	private Button button9;
+	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +40,8 @@ public class Apps_zxy_learningActivity extends Activity implements OnClickListen
         button7=(Button) findViewById(R.id.button7);
         button8=(Button) findViewById(R.id.button8);
         button9=(Button) findViewById(R.id.button9);
+        
+       
 //        button1.setOnClickListener(new OnClickListener() {
 //			
 //			public void onClick(View v) {
@@ -57,7 +60,8 @@ public class Apps_zxy_learningActivity extends Activity implements OnClickListen
         button6.setOnClickListener(this);
         button7.setOnClickListener(this);
         button8.setOnClickListener(this);
-        button9.setOnClickListener(this);   
+        button9.setOnClickListener(this); 
+        
     }
 	public void onClick(View v) {
 		// TODO Auto-generated method stub

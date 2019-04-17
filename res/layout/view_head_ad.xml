@@ -7,11 +7,6 @@
     android:orientation="vertical"
     android:padding="10dp" >
 
-    <include
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        layout="@layout/view_bar_head" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,6 +21,7 @@
             android:singleLine="true"
             android:text="@string/card_number"
             android:textColor="@color/base_text_color"
+            android:background="@drawable/edit_bg"
             android:textSize="@dimen/txt_h3" >
         </TextView>
 
@@ -36,6 +32,7 @@
             android:singleLine="true"
             android:text="@string/account_number"
             android:textColor="@color/base_text_color"
+            android:background="@drawable/edit_bg"
             android:textSize="@dimen/txt_h3" />
 
         <TextView
