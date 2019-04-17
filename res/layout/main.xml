@@ -49,15 +49,16 @@
         android:layout_weight="0.04"
         android:orientation="vertical"  >
     </LinearLayout>
-  
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="158dp"
-        android:layout_height="52dp"
-        android:background="@color/syn_book_bg"
-        android:text="@string/syn_tech" />
-
+ 	<Button
+ 	    android:id="@+id/button1"
+ 	    android:layout_width="158dp"
+ 	    android:layout_height="52dp"
+ 	    android:background="@color/syn_book_bg"
+ 	    android:drawableRight="@drawable/number_normal"
+ 	    android:gravity="bottom"
+ 	    android:textSize="@dimen/txt_h5"
+ 	    android:text="@string/syn_tech" />
 
 	<LinearLayout
         android:id="@+id/LinearLayout2"
@@ -72,7 +73,10 @@
          android:layout_width="120dp"
          android:layout_height="52dp"
          android:background="@color/exam_and_account_bg"
-         android:text="@string/exam_room" />
+         android:gravity="bottom"
+         android:drawableRight="@drawable/exam_normal"
+         android:text="@string/exam_room" 
+         android:textSize="@dimen/txt_h5"/>
 
     <LinearLayout
         android:id="@+id/LinearLayout3"
@@ -106,6 +110,9 @@
 	        android:layout_width="113dp"
 	        android:layout_height="52dp"
 	        android:background="@color/famous_book_bg"
+	        android:drawableRight="@drawable/famous_book_normal"
+	        android:gravity="bottom"
+ 	    	android:textSize="@dimen/txt_h5"
 	        android:text="@string/famous_book" />
 
 
@@ -125,7 +132,10 @@
 	        android:layout_width="164dp"
 	        android:layout_height="52dp"
 	        android:background="@color/best_head_bg"
-	        android:text="@string/best_head" />
+	        android:text="@string/best_head"
+	        android:gravity="bottom"
+	        android:drawableRight="@drawable/best_head1_normal"
+ 	    	android:textSize="@dimen/txt_h5" />
 
 
 		<LinearLayout
@@ -148,7 +158,7 @@
 	    android:orientation="horizontal" >
 
 
-<LinearLayout
+	<LinearLayout
         android:id="@+id/LinearLayout7"
         android:layout_width="14dp"
         android:layout_height="match_parent"
@@ -164,9 +174,12 @@
         android:id="@+id/button5"
         android:layout_width="106dp"
         android:layout_height="52dp"
-        android:layout_weight="1.49"
+        android:layout_weight="0.52"
         android:background="@color/user_manager_bg"
-        android:text="@string/user_manager" />
+        android:drawableRight="@drawable/user_normal"
+        android:text="@string/user_manager" 
+        android:gravity="bottom"
+ 	    android:textSize="@dimen/txt_h5"/>
 
 	<LinearLayout
         android:id="@+id/LinearLayout8"
@@ -182,7 +195,10 @@
         android:layout_height="52dp"
         android:layout_weight="0.77"
         android:background="@color/my_download_bg"
-        android:text="@string/add_account" />
+        android:drawableRight="@drawable/money_normal"
+        android:text="@string/add_account"
+        android:gravity="bottom"
+ 	    android:textSize="@dimen/txt_h5" />
 
     <LinearLayout
         android:id="@+id/LinearLayout9"
@@ -197,7 +213,10 @@
         android:layout_height="52dp"
         android:layout_weight="1.01"
         android:background="@color/sys_setting_bg"
-        android:text="@string/my_download" />
+        android:drawableRight="@drawable/my_download_normal"
+        android:text="@string/my_download"
+        android:gravity="bottom"
+ 	    android:textSize="@dimen/txt_h5" />
 
   
     <LinearLayout
@@ -232,7 +251,10 @@
         android:layout_height="52dp"
         android:layout_weight="0.52"
         android:background="@color/yellow_bg"
-        android:text="@string/sys_setting" />
+        android:text="@string/sys_setting"
+        android:drawableRight="@drawable/setting_normal"
+        android:gravity="bottom"
+ 	    android:textSize="@dimen/txt_h5" />
 
 
     <LinearLayout
@@ -249,7 +271,10 @@
         android:layout_height="52dp"
         android:layout_weight="4.20"
         android:background="@color/about_us_bg"
-        android:text="@string/about_us" />
+        android:text="@string/about_us"
+        android:gravity="bottom"
+        android:drawableRight="@drawable/about_msg_normal"
+ 	    android:textSize="@dimen/txt_h5" />
 
 
     <LinearLayout

@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" 
     android:background="@color/white">
-    
+    
 <RelativeLayout
     android:layout_width="fill_parent"
     android:layout_height="47dp"
@@ -19,15 +19,14 @@
         android:background="@color/green_bg"
         android:contentDescription="@string/app_name" />
 
-    <ImageView
+	<ImageView
         android:id="@+id/iv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/user_home" />
-
+        android:src="@drawable/user_home" />
     <TextView
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
@@ -103,7 +102,7 @@
                android:layout_marginTop="14dp"
                android:singleLine="true"
                android:text="@string/app_version"
-               android:textColor="@color/button_bg_color"
+               android:textColor="@color/black"
                android:textSize="@dimen/txt_h3" />
 
            <TextView
@@ -115,7 +114,7 @@
                android:layout_marginTop="44dp"
                android:singleLine="true"
                android:text="@string/company_eng_name"
-               android:textColor="@color/button_bg_color"
+               android:textColor="@color/black"
                android:textSize="@dimen/txt_h3" />
 
        </RelativeLayout>
@@ -126,6 +125,7 @@
            android:layout_height="wrap_content"
            android:layout_alignParentLeft="true"
            android:layout_alignParentTop="true"
+           android:layout_marginTop="20dp"
            android:singleLine="true"
            android:text="@string/introduce"
            android:textColor="@color/base_text_color"
@@ -135,11 +135,12 @@
            android:id="@+id/button2"
            android:layout_width="160dp"
            android:layout_height="@dimen/user_button_height"
+           android:layout_below="@+id/layout_tag"
            android:layout_centerHorizontal="true"
-           android:layout_centerVertical="true"
+           android:layout_marginTop="18dp"
            android:background="@color/green_bg"
+           android:gravity="center"
            android:text="@string/check_update"
-                   android:gravity="center"
            android:textColor="@color/white"
            android:textSize="@dimen/txt_h3" />
 

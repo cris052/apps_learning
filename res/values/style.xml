@@ -3,4 +3,12 @@
     <style name="notitle">
         <item name="android:windowNoTitle">true</item>
     </style> 
+    <style name="UserButtonStyle">
+        <item name="android:layout_width">@dimen/user_button_width</item>
+        <item name="android:layout_height">@dimen/user_button_height</item>
+        <item name="android:background">@color/green_bg</item>
+        <item name="android:textSize">@dimen/txt_h3</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
 </resources>
