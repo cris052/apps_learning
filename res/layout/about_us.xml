@@ -57,6 +57,7 @@
            android:orientation="vertical" >
 
            <TextView
+               android:id="@+id/tv_01"
                android:layout_width="fill_parent"
                android:layout_height="wrap_content"
                android:gravity="center"
@@ -66,6 +67,7 @@
                android:textSize="@dimen/txt_h3" />
 
            <TextView
+               android:id="@+id/tv_02"
                android:layout_width="fill_parent"
                android:layout_height="wrap_content"
                android:layout_marginBottom="10dp"
