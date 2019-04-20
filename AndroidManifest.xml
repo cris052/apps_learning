@@ -33,6 +33,7 @@
         <activity android:name="activity.SettingActivity" />
         <activity android:name="activity.SyncTechActivity" />
         <activity android:name="activity.ChargeActivity" />
+        <activity android:name="activity.FriendsListActivity" />
     </application>
 
 </manifest>

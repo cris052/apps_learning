@@ -3,12 +3,14 @@ package zxy.learning.app;
 import java.util.ArrayList;
 import java.util.List;
 
+import Adapter.ViewPagerAdapter;
 import activity.AboutActivity;
 import activity.BaseActivity;
 import activity.BestHeadActivity;
 import activity.ExamActivity;
 import activity.FamousBookActivity;
 import activity.FindPwdActivity;
+import activity.FriendsListActivity;
 import activity.LoginActivity;
 import activity.MyDownloadActivity;
 import android.app.Activity;
@@ -126,7 +128,7 @@ public class Apps_zxy_learningActivity extends Activity implements OnPageChangeL
 			break;
 		case R.id.button7:
 			Intent intent7=new Intent();
-			intent7.setClass(this,FindPwdActivity.class);
+			intent7.setClass(this,FriendsListActivity.class);
 			startActivity(intent7);
 			break;
 		case R.id.button8:
