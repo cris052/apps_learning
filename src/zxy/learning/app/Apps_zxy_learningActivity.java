@@ -42,25 +42,7 @@ public class Apps_zxy_learningActivity extends Activity implements OnPageChangeL
 	private int[] guideImages={R.drawable.a01,R.drawable.a02,
 			R.drawable.a03,R.drawable.a04};
 	private ViewPagerAdapter adapter;
-    private void initView(){
-    	ll = (LinearLayout) findViewById(R.id.ll);
-    	viewpager=(ViewPager) findViewById(R.id.viewpager);
-    	views=new ArrayList<View>();
-    	adapter=new ViewPagerAdapter(views);
-    }
-    private void initData(){
-    	LayoutParams layoutParams=new LayoutParams(LayoutParams.MATCH_PARENT,
-    			LayoutParams.MATCH_PARENT);
-    	for(int i:guideImages){
-    		ImageView imageview=new ImageView(this);
-    		imageview.setImageResource(i);
-    		imageview.setLayoutParams(layoutParams);
-    		views.add(imageview);
-    	}
-    	initPoint();
-    	viewpager.setAdapter(adapter);
-    	viewpager.setOnPageChangeListener(this);
-    }
+	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -99,9 +81,19 @@ public class Apps_zxy_learningActivity extends Activity implements OnPageChangeL
     }
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
-		int i=(Integer) v.getTag();
-		viewpager.setCurrentItem(i);
 		switch (v.getId()) {
+		case R.id.image1:
+			viewpager.setCurrentItem(0);
+			break;
+		case R.id.image2:
+			viewpager.setCurrentItem(1);
+			break;
+		case R.id.image3:
+			viewpager.setCurrentItem(2);
+			break;
+		case R.id.image4:
+			viewpager.setCurrentItem(3);
+			break;
 		case R.id.button1:
 			Intent intent=new Intent();
 			intent.setClass(this,AboutActivity.class);
@@ -150,7 +142,30 @@ public class Apps_zxy_learningActivity extends Activity implements OnPageChangeL
 		default:
 			break;
 		}
+		
 	}
+	
+	private void initView(){
+    	ll = (LinearLayout) findViewById(R.id.ll);
+    	viewpager=(ViewPager) findViewById(R.id.viewpager);
+				// TODO Auto-generated method stub	
+    	views=new ArrayList<View>();
+    	adapter=new ViewPagerAdapter(views);
+    }
+	
+    private void initData(){
+    	LayoutParams layoutParams=new LayoutParams(LayoutParams.MATCH_PARENT,
+    			LayoutParams.MATCH_PARENT);
+    	for(int i:guideImages){
+    		ImageView imageview=new ImageView(this);
+    		imageview.setImageResource(i);
+    		imageview.setLayoutParams(layoutParams);
+    		views.add(imageview);
+    	}
+    	initPoint();
+    	viewpager.setAdapter(adapter);
+    	viewpager.setOnPageChangeListener(this);
+    }
 	/** ≥ı ºªØ‘≤µ„ */
 	private void initPoint() {
 		points = new ImageView[guideImages.length];
@@ -159,7 +174,7 @@ public class Apps_zxy_learningActivity extends Activity implements OnPageChangeL
 			points[i] = (ImageView) ll.getChildAt(i);
 			points[i].setImageResource(R.drawable.page_indicator_unfocused);
 			points[i].setOnClickListener(this);
-			points[i].setTag(i);
+			
 		}
 		currentPoint = 0;
 		points[currentPoint].setImageResource(R.drawable.page_indicator_focused);

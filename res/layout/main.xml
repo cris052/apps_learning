@@ -6,6 +6,7 @@
     android:orientation="vertical" >
 
     <ImageView
+        android:id="@+id/imageview8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:contentDescription="@string/app_name"
@@ -34,24 +35,28 @@
         >
 
         <ImageView
+            android:id="@+id/image1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dip"
             android:src="@drawable/page_indicator_unfocused" />
 
         <ImageView
+            android:id="@+id/image2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dip"
             android:src="@drawable/page_indicator_unfocused" />
 
         <ImageView
+            android:id="@+id/image3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dip"
             android:src="@drawable/page_indicator_unfocused" />
 
         <ImageView
+            android:id="@+id/image4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dip"
@@ -338,7 +343,7 @@
         android:orientation="horizontal" >
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/imageView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/back" />
@@ -355,7 +360,7 @@
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imageView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/home" />
@@ -373,7 +378,7 @@
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/imageView1"
+            android:id="@+id/imageView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/search" />
