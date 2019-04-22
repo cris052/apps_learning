@@ -28,13 +28,10 @@
     <string name="password_find">密码找回</string>
     <string name="user_register">用户注册</string>
     <string name="name_text">姓名</string>
-    <string name="sex_text">性别</string>
     <string name="pwd_text">密码</string>
     <string name="repwd_text">确认密码</string>
     <string name="code_text">验证码</string>
     <string name="register">注册</string>
-    <string name="boy_text">男</string>
-    <string name="girl_text">女</string>
     <string name="get_code_text">获取验证码</string>
     <string name="new_password_to_phone">新密码发送至手机</string>
     <string name="card_text">卡号</string>
@@ -55,6 +52,16 @@
     <string name="download_text">下载安装</string>
     <string name="register_login_text">注册登录</string>
     <string name="server_phone">客服电话：430-0000-0000</string>
+    <string name="collect">收藏</string>
+    <string name="browse">最近浏览</string>
+    <string name="aa">一切都会有好的结果。</string>
+    <string name="yue">余额</string>
+    <string name="discount">优惠券</string>
+    <string name="classfx">课程分销</string>
+    <string name="classsc">4G免流量上课</string>
+    <string name="chaoyue">超越杯编程大赛决赛直播</string>
+    <string name="suggestion">反馈建议</string>
+    <string name="ddgl">订单管理</string>
 
     <string-array name="sync_tech_array">
         <item>本地教材</item>

@@ -1,388 +1,326 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/white" >
+    android:layout_height="match_parent">
+    
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@color/white" >
 
-    <ImageView
-        android:id="@+id/iv_avatar"
-        android:layout_width="70dip"
-        android:layout_height="70dip"
-        android:src="@drawable/a05" />
+	    <ImageView
+	        android:id="@+id/iv_avatar"
+	        android:layout_width="70dip"
+	        android:layout_height="70dip"
+	        android:src="@drawable/a05" />
 
-    <TextView
-        android:id="@+id/txt_nickname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/iv_avatar"
-        android:layout_marginBottom="26dp"
-        android:layout_marginLeft="30dp"
-        android:layout_toRightOf="@+id/iv_avatar"
-        android:text="小花"
-        android:textColor="@color/black"
-        android:textSize="@dimen/txt_h2" />
+	    <TextView
+	        android:id="@+id/txt_nickname"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBottom="@+id/iv_avatar"
+	        android:layout_marginBottom="26dp"
+	        android:layout_marginLeft="30dp"
+	        android:layout_toRightOf="@+id/iv_avatar"
+	        android:text="小花"
+	        android:textColor="@color/black"
+	        android:textSize="@dimen/txt_h3" />
 
-    <TextView
-        android:id="@+id/txt_description"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/iv_avatar"
-        android:layout_alignLeft="@+id/txt_nickname"
-        android:layout_weight="0.04"
-        android:text="一切都会有好的结果。"
-        android:textColor="@color/black" />
+	    <TextView
+	        android:id="@+id/txt_description"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBottom="@+id/iv_avatar"
+	        android:layout_alignLeft="@+id/txt_nickname"
+	        android:layout_weight="0.04"
+	        android:text="@string/aa"
+	        android:textColor="@color/black"
+	        android:textSize="@dimen/txt_h5" />
 
-    <ImageView
-        android:id="@+id/iv_img"
-        android:layout_width="70dip"
-        android:layout_height="70dip"
-        android:layout_alignParentRight="true"
-        android:src="@drawable/a09" />
+	    <ImageView
+	        android:id="@+id/iv_img"
+	        android:layout_width="70dip"
+	        android:layout_height="70dip"
+	        android:layout_alignParentRight="true"
+	        android:src="@drawable/a10" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout1"
-        android:layout_width="wrap_content"
-        android:layout_height="4dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/iv_avatar"
-        android:background="@color/gray"
-        android:orientation="vertical" >
-    </LinearLayout>
+	    <LinearLayout
+	        android:id="@+id/linearLayout1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="4dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/iv_avatar"
+	        android:background="@color/gray"
+	        android:orientation="vertical" >
+	    </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/iv_avatar"
-        android:layout_below="@+id/linearLayout1"
-        android:layout_marginRight="18dp"
-        android:layout_marginTop="22dp"
-        android:src="@drawable/ddgl" />
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignRight="@+id/iv_avatar"
+	        android:layout_below="@+id/linearLayout1"
+	        android:layout_marginRight="18dp"
+	        android:layout_marginTop="22dp"
+	        android:src="@drawable/ddgl" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView1"
-        android:layout_alignLeft="@+id/txt_description"
-        android:layout_alignTop="@+id/imageView1"
-        android:src="@drawable/xz" />
+	    <ImageView
+	        android:id="@+id/imageView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBottom="@+id/imageView1"
+	        android:layout_alignLeft="@+id/txt_description"
+	        android:layout_alignTop="@+id/imageView1"
+	        android:src="@drawable/xz" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_marginLeft="40dp"
-        android:layout_toRightOf="@+id/txt_nickname"
-        android:src="@drawable/sc" />
+	    <ImageView
+	        android:id="@+id/imageView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignTop="@+id/imageView2"
+	        android:layout_marginLeft="40dp"
+	        android:layout_toRightOf="@+id/txt_nickname"
+	        android:src="@drawable/sc" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/iv_img"
-        android:layout_alignTop="@+id/imageView3"
-        android:layout_marginLeft="14dp"
-        android:src="@drawable/zjll" />
+	    <ImageView
+	        android:id="@+id/imageView4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/iv_img"
+	        android:layout_alignTop="@+id/imageView3"
+	        android:layout_marginLeft="14dp"
+	        android:src="@drawable/zjll" />
 
-    <AutoCompleteTextView
-        android:id="@+id/AutoCompleteTextView01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/imageView3"
-        android:text="订单管理" />
+	    <LinearLayout
+	        android:id="@+id/linearLayout2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="3dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/iv_avatar"
+	        android:background="@color/gray"
+	        android:orientation="vertical" >
+	    </LinearLayout>
 
+	    <TextView
+	        android:id="@+id/tv_intr"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/imageView1"
+	        android:layout_toLeftOf="@+id/txt_nickname"
+	        android:layout_toRightOf="@+id/txt_nickname"
+	        android:gravity="center"
+	        android:singleLine="true"
+	        android:text="@string/ddgl"
+	        android:textColor="@color/black"
+	        android:textSize="@dimen/txt_h5" />
 
-    <AutoCompleteTextView
-        android:id="@+id/AutoCompleteTextView04"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/AutoCompleteTextView01"
-        android:layout_alignBottom="@+id/AutoCompleteTextView01"
-        android:layout_alignParentRight="true"
-        android:text="最近浏览" />
+	    <LinearLayout
+	        android:id="@+id/LinearLayout02"
+	        android:layout_width="wrap_content"
+	        android:layout_height="10dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/tv_intr"
+	        android:layout_marginTop="15dp"
+	        android:background="@color/gray"
+	        android:orientation="vertical" >
+	    </LinearLayout>
 
-    <AutoCompleteTextView
-        android:id="@+id/AutoCompleteTextView02"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView3"
-        android:layout_toLeftOf="@+id/AutoCompleteTextView04"
-        android:text="收藏" />
+	    <TextView
+	        android:id="@+id/TextView04"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/LinearLayout02"
+	        android:layout_alignLeft="@+id/iv_img"
+	        android:gravity="left"
+	        android:singleLine="true"
+	        android:text="@string/browse"
+	        android:textColor="@color/black"
+	        android:textSize="@dimen/txt_h5" />
 
-    <AutoCompleteTextView
-        android:id="@+id/AutoCompleteTextView03"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/AutoCompleteTextView01"
-        android:layout_toRightOf="@+id/AutoCompleteTextView01"
-        android:text="下载" />
+	    <TextView
+	        android:id="@+id/TextView02"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/LinearLayout02"
+	        android:layout_alignLeft="@+id/imageView2"
+	        android:layout_alignRight="@+id/txt_nickname"
+	        android:singleLine="true"
+	        android:text="@string/my_download"
+	        android:textColor="@color/black"
+	        android:textSize="@dimen/txt_h5" />
 
-     <LinearLayout
-        android:id="@+id/linearLayout1"
-        android:layout_width="wrap_content"
-        android:layout_height="3dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/iv_avatar"
-        android:background="@color/gray"
-        android:orientation="vertical" >
-    </LinearLayout>
-
-     <LinearLayout
-         android:id="@+id/LinearLayout01"
-         android:layout_width="wrap_content"
-         android:layout_height="14dp"
-         android:layout_alignParentLeft="true"
-         android:layout_alignParentRight="true"
-         android:layout_below="@+id/AutoCompleteTextView01"
-         android:layout_marginTop="14dp"
-         android:background="@color/gray"
-         android:orientation="vertical" >
+	    <TextView
+	        android:id="@+id/TextView07"
+	        android:layout_width="156dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/imageView1"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/LinearLayout02"
+	        android:layout_marginTop="18dp"
+	        android:drawableRight="@drawable/a11"
+	        android:singleLine="true"
+	        android:text="@string/yue"
+	        android:textColor="@color/black"
+	        android:textSize="@dimen/txt_h5" />
 
-     </LinearLayout>
-
-     <LinearLayout
-         android:id="@+id/linearLayout2"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_alignLeft="@+id/imageView1"
-         android:layout_alignParentRight="true"
-         android:layout_below="@+id/LinearLayout01"
-         android:layout_marginTop="16dp"
-         android:orientation="vertical" >
-
-         <AutoCompleteTextView
-             android:id="@+id/autoCompleteTextView1"
-             android:layout_width="102dp"
-             android:layout_height="wrap_content"
-             android:text="余额" />
+	    <LinearLayout
+	        android:id="@+id/LinearLayout01"
+	        android:layout_width="wrap_content"
+	        android:layout_height="2dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/TextView07"
+	        android:layout_marginTop="16dp"
+	        android:background="@color/gray"
+	        android:orientation="vertical" >
+	    </LinearLayout>
 
-     </LinearLayout>
+	    <LinearLayout
+	        android:id="@+id/LinearLayout03"
+	        android:layout_width="wrap_content"
+	        android:layout_height="2dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/LinearLayout01"
+	        android:layout_marginTop="40dp"
+	        android:background="@color/gray"
+	        android:orientation="vertical" >
+	    </LinearLayout>
 
-     <RelativeLayout
-         android:layout_width="match_parent"
-         android:layout_height="match_parent"
-         android:layout_alignParentLeft="true"
-         android:layout_alignParentTop="true"
-         android:background="@color/white" >
+	    <TextView
+	        android:id="@+id/TextView03"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/imageView3"
+	        android:layout_alignRight="@+id/txt_description"
+	        android:layout_below="@+id/imageView3"
+	        android:singleLine="true"
+	        android:text="@string/discount"
+	        android:textColor="@color/black"
+	        android:textSize="@dimen/txt_h5" />
 
-         <ImageView
-             android:id="@+id/ImageView04"
-             android:layout_width="70dip"
-             android:layout_height="70dip"
-             android:src="@drawable/a05" />
+	    <TextView
+	        android:id="@+id/TextView05"
+	        android:layout_width="156dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/TextView01"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/LinearLayout03"
+	        android:layout_marginTop="16dp"
+	        android:drawableRight="@drawable/a11"
+	        android:singleLine="true"
+	        android:text="@string/classfx"
+	        android:textColor="@color/black"
+	        android:textSize="@dimen/txt_h5" />
 
-         <TextView
-             android:id="@+id/TextView02"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignBottom="@+id/ImageView04"
-             android:layout_marginBottom="26dp"
-             android:layout_marginLeft="30dp"
-             android:layout_toRightOf="@+id/ImageView04"
-             android:text="小花"
-             android:textColor="@color/black"
-             android:textSize="@dimen/txt_h2" />
+	    <LinearLayout
+	        android:id="@+id/LinearLayout04"
+	        android:layout_width="wrap_content"
+	        android:layout_height="2dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/TextView05"
+	        android:layout_marginTop="72dp"
+	        android:background="@color/gray"
+	        android:orientation="vertical" >
+	    </LinearLayout>
 
-         <TextView
-             android:id="@+id/TextView01"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignBottom="@+id/ImageView04"
-             android:layout_alignLeft="@+id/TextView02"
-             android:layout_weight="0.04"
-             android:text="一切都会有好的结果。"
-             android:textColor="@color/black" />
+	    <LinearLayout
+	        android:id="@+id/LinearLayout05"
+	        android:layout_width="wrap_content"
+	        android:layout_height="10dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/TextView05"
+	        android:layout_marginTop="16dp"
+	        android:background="@color/gray"
+	        android:orientation="vertical" >
+	    </LinearLayout>
 
-         <ImageView
-             android:id="@+id/ImageView06"
-             android:layout_width="70dip"
-             android:layout_height="70dip"
-             android:layout_alignParentRight="true"
-             android:src="@drawable/a09" />
+	    <TextView
+	        android:id="@+id/TextView06"
+	        android:layout_width="156dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/TextView05"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/LinearLayout05"
+	        android:layout_marginTop="14dp"
+	        android:drawableRight="@drawable/a11"
+	        android:singleLine="true"
+	        android:text="@string/chaoyue"
+	        android:textColor="@color/black"
+	        android:textSize="@dimen/txt_h5" />
 
-         <LinearLayout
-             android:id="@+id/LinearLayout03"
-             android:layout_width="wrap_content"
-             android:layout_height="4dp"
-             android:layout_alignParentLeft="true"
-             android:layout_alignParentRight="true"
-             android:layout_below="@+id/ImageView04"
-             android:background="@color/gray"
-             android:orientation="vertical" >
-         </LinearLayout>
+	    <TextView
+	        android:id="@+id/TextView08"
+	        android:layout_width="156dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/TextView06"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/LinearLayout04"
+	        android:layout_marginTop="17dp"
+	        android:drawableRight="@drawable/a11"
+	        android:singleLine="true"
+	        android:text="@string/suggestion"
+	        android:textColor="@color/black"
+	        android:textSize="@dimen/txt_h5" />
 
-         <ImageView
-             android:id="@+id/ImageView01"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignRight="@+id/ImageView04"
-             android:layout_below="@+id/LinearLayout03"
-             android:layout_marginRight="18dp"
-             android:layout_marginTop="22dp"
-             android:src="@drawable/ddgl" />
+	    <LinearLayout
+	        android:id="@+id/LinearLayout06"
+	        android:layout_width="wrap_content"
+	        android:layout_height="10dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/TextView08"
+	        android:layout_marginTop="16dp"
+	        android:background="@color/gray"
+	        android:orientation="vertical" >
+	    </LinearLayout>
 
-         <ImageView
-             android:id="@+id/ImageView02"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignBottom="@+id/ImageView01"
-             android:layout_alignLeft="@+id/TextView01"
-             android:layout_alignTop="@+id/ImageView01"
-             android:src="@drawable/xz" />
+	    <TextView
+	        android:id="@+id/TextView09"
+	        android:layout_width="156dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/TextView08"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/LinearLayout06"
+	        android:layout_marginTop="15dp"
+	        android:drawableRight="@drawable/a11"
+	        android:singleLine="true"
+	        android:text="@string/sys_setting"
+	        android:textColor="@color/black"
+	        android:textSize="@dimen/txt_h5" />
 
-         <ImageView
-             android:id="@+id/ImageView03"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignTop="@+id/ImageView02"
-             android:layout_marginLeft="40dp"
-             android:layout_toRightOf="@+id/TextView02"
-             android:src="@drawable/sc" />
+	    <LinearLayout
+	        android:id="@+id/LinearLayout07"
+	        android:layout_width="wrap_content"
+	        android:layout_height="2dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/TextView09"
+	        android:background="@color/gray"
+	        android:orientation="vertical" >
+	    </LinearLayout>
 
-         <ImageView
-             android:id="@+id/ImageView05"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignLeft="@+id/ImageView06"
-             android:layout_alignTop="@+id/ImageView03"
-             android:layout_marginLeft="14dp"
-             android:src="@drawable/zjll" />
+	    <TextView
+	        android:id="@+id/TextView01"
+	        android:layout_width="156dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/TextView07"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:drawableRight="@drawable/a11"
+	        android:singleLine="true"
+	        android:text="@string/discount"
+	        android:textColor="@color/black"
+	        android:textSize="@dimen/txt_h5" />
 
-         <AutoCompleteTextView
-             android:id="@+id/AutoCompleteTextView07"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignParentLeft="true"
-             android:layout_below="@+id/ImageView03"
-             android:text="订单管理" />
+	</RelativeLayout>
 
-         <AutoCompleteTextView
-             android:id="@+id/AutoCompleteTextView08"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignBaseline="@+id/AutoCompleteTextView07"
-             android:layout_alignBottom="@+id/AutoCompleteTextView07"
-             android:layout_alignParentRight="true"
-             android:text="最近浏览" />
-
-         <AutoCompleteTextView
-             android:id="@+id/AutoCompleteTextView06"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_below="@+id/ImageView03"
-             android:layout_toLeftOf="@+id/AutoCompleteTextView08"
-             android:text="收藏" />
-
-         <AutoCompleteTextView
-             android:id="@+id/AutoCompleteTextView09"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignBottom="@+id/AutoCompleteTextView07"
-             android:layout_toRightOf="@+id/AutoCompleteTextView07"
-             android:text="下载" />
-
-         <LinearLayout
-             android:id="@+id/LinearLayout03"
-             android:layout_width="wrap_content"
-             android:layout_height="3dp"
-             android:layout_alignParentLeft="true"
-             android:layout_alignParentRight="true"
-             android:layout_below="@+id/ImageView04"
-             android:background="@color/gray"
-             android:orientation="vertical" >
-         </LinearLayout>
-
-         <LinearLayout
-             android:id="@+id/LinearLayout04"
-             android:layout_width="wrap_content"
-             android:layout_height="14dp"
-             android:layout_alignParentLeft="true"
-             android:layout_alignParentRight="true"
-             android:layout_below="@+id/AutoCompleteTextView07"
-             android:layout_marginTop="14dp"
-             android:background="@color/gray"
-             android:orientation="vertical" >
-         </LinearLayout>
-
-         <LinearLayout
-             android:id="@+id/LinearLayout02"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignLeft="@+id/ImageView01"
-             android:layout_alignParentRight="true"
-             android:layout_below="@+id/LinearLayout04"
-             android:layout_marginTop="16dp"
-             android:orientation="vertical" >
-
-             <AutoCompleteTextView
-                 android:id="@+id/AutoCompleteTextView05"
-                 android:layout_width="102dp"
-                 android:layout_height="wrap_content"
-                 android:text="余额" />
-         </LinearLayout>
-
-        <LinearLayout
-             android:id="@+id/LinearLayout02"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignLeft="@+id/ImageView01"
-             android:layout_alignParentRight="true"
-             android:layout_below="@+id/LinearLayout04"
-             android:layout_marginTop="16dp"
-             android:orientation="vertical" >
-
-             <AutoCompleteTextView
-                 android:id="@+id/AutoCompleteTextView05"
-                 android:layout_width="102dp"
-                 android:layout_height="wrap_content"
-                 android:text="余额" />
-         </LinearLayout>
-         
-         <LinearLayout
-             android:id="@+id/LinearLayout02"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignLeft="@+id/ImageView01"
-             android:layout_alignParentRight="true"
-             android:layout_below="@+id/LinearLayout04"
-             android:layout_marginTop="16dp"
-             android:orientation="vertical" >
-
-             <AutoCompleteTextView
-                 android:id="@+id/AutoCompleteTextView05"
-                 android:layout_width="102dp"
-                 android:layout_height="wrap_content"
-                 android:layout_marginTop="51dp"
-                 android:text="优惠券" />
-
-         </LinearLayout>
-
-             <LinearLayout
-             android:id="@+id/LinearLayout03"
-             android:layout_width="wrap_content"
-             android:layout_height="3dp"
-             android:layout_alignParentLeft="true"
-             android:layout_alignParentRight="true"
-             android:layout_below="@+id/ImageView04"
-             android:background="@color/gray"
-             android:orientation="vertical" >
-         </LinearLayout>
-         
-   
-
-             <AutoCompleteTextView
-                 android:id="@+id/AutoCompleteTextView05"
-                 android:layout_width="102dp"
-                 android:layout_height="wrap_content"
-                 android:layout_alignLeft="@+id/LinearLayout02"
-                 android:layout_alignParentBottom="true"
-                 android:text="优惠券" />
-
-     </RelativeLayout>
-	
-</RelativeLayout>
+</ScrollView>

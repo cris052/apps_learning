@@ -34,6 +34,7 @@
         <activity android:name="activity.SyncTechActivity" />
         <activity android:name="activity.ChargeActivity" />
         <activity android:name="activity.FriendsListActivity" />
+        <activity android:name="activity.SychActivity" />
     </application>
 
 </manifest>

@@ -13,6 +13,7 @@ import activity.FindPwdActivity;
 import activity.FriendsListActivity;
 import activity.LoginActivity;
 import activity.MyDownloadActivity;
+import activity.SychActivity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -98,12 +99,12 @@ public class Apps_zxy_learningActivity extends Activity implements OnPageChangeL
 			break;
 		case R.id.button1:
 			Intent intent=new Intent();
-			intent.setClass(this,AboutActivity.class);
+			intent.setClass(this,SychActivity.class);
 			startActivity(intent);
 			break;
 		case R.id.button2:
 			Intent intent2=new Intent();
-			intent2.setClass(this,BestHeadActivity.class);
+			intent2.setClass(this,LoginActivity.class);
 			startActivity(intent2);
 			break;
 		case R.id.button3:
@@ -133,12 +134,12 @@ public class Apps_zxy_learningActivity extends Activity implements OnPageChangeL
 			break;
 		case R.id.button8:
 			Intent intent8=new Intent();
-			intent8.setClass(this,LoginActivity.class);
+			intent8.setClass(this,AboutActivity.class);
 			startActivity(intent8);
 			break;
 		case R.id.button9:
 			Intent intent9=new Intent();
-			intent9.setClass(this,MyDownloadActivity.class);
+			intent9.setClass(this,AboutActivity.class);
 			startActivity(intent9);
 			break;
 		default:
