@@ -41,5 +41,5 @@
     <color name="green_bg">#0fc4d9</color>
     <color name="blue_bg">#747ae9</color>
     <color name="dark_blue_bg">#9755f6</color>
-
+	<color name="gray">#d9d2d3</color>
 </resources>

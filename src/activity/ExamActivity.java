@@ -1,5 +1,6 @@
 package activity;
 
+import zxy.learning.app.Apps_zxy_learningActivity;
 import zxy.learning.app.R;
 import android.app.Activity;
 import android.content.Intent;
@@ -7,12 +8,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class ExamActivity extends Activity implements OnClickListener {
     /** Called when the activity is first created. */
 	private Button button1;
 	private Button button2;
-	
+	private ImageView iv_title;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +23,8 @@ public class ExamActivity extends Activity implements OnClickListener {
         button2=(Button) findViewById(R.id.button2);
         button1.setOnClickListener(this);
         button2.setOnClickListener(this);
+        iv_title=(ImageView) findViewById(R.id.iv_title);
+        iv_title.setOnClickListener(this);
         
     }
 	public void onClick(View v) {
@@ -35,6 +39,11 @@ public class ExamActivity extends Activity implements OnClickListener {
 			Intent intent2=new Intent();
 			intent2.setClass(this,BestHeadActivity.class);
 			startActivity(intent2);
+			break;
+		case R.id.iv_title:
+			Intent intent3=new Intent();
+			intent3.setClass(this,Apps_zxy_learningActivity.class);
+			startActivity(intent3);
 			break;
 		default:
 			break;

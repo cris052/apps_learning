@@ -335,7 +335,7 @@
     android:layout_weight="13.94"
     android:orientation="vertical" >
 
-    </LinearLayout><LinearLayout
+    </LinearLayout>	<LinearLayout
         android:id="@+id/LinearLayout14"
         android:layout_width="match_parent"
         android:layout_height="26dp"
@@ -383,5 +383,6 @@
             android:layout_height="wrap_content"
             android:src="@drawable/search" />
     </LinearLayout>
-   
+    
+	    
 </LinearLayout>
