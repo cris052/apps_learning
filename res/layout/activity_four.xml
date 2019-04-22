@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/app_name">
+
+         <LinearLayout
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+             <ImageView
+                 android:id="@+id/sh_pic"
+                 android:src="@mipmap/tmall_ico"
+                 android:scaleType="fitXY"
+                 android:layout_width="match_parent"
+                 android:layout_height="200dp" />
+
+
+             <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+                 <TextView
+                     android:id="@+id/butt_name"
+                     android:padding="20dp"
+                     android:textSize="15sp"
+                     android:textColor="#000000"
+                     android:text="商品介绍"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content" />
+
+                 <LinearLayout
+                     android:orientation="horizontal"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+
+                     <TextView
+                         android:id="@+id/butt_yuanjia"
+                         android:padding="20dp"
+                         android:textColor="#DA2727"
+                         android:textSize="15sp"
+                         android:text="优惠券:999.00"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content" />
+                     <TextView
+                         android:id="@+id/butt_jiage"
+                         android:padding="20dp"
+                         android:textSize="22sp"
+                         android:textColor="#DA2727"
+                         android:text="现价:￥998"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content" />
+
+                 </LinearLayout>
+
+
+                 <RelativeLayout
+                     android:orientation="horizontal"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+                     <TextView
+                         android:id="@+id/butt_xiaoliang"
+                         android:padding="20dp"
+                         android:text="月销量:300000"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content" />
+
+                     <TextView
+                         android:id="@+id/butt_fuw"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_alignParentRight="true"
+                         android:padding="200dp"
+                         android:text="服务分:4.9" />
+
+                     <TextView
+                         android:id="@+id/butt_xianjia"
+                         android:layout_width="318dp"
+                         android:layout_height="wrap_content"
+                         android:layout_alignParentRight="true"
+                         android:layout_below="@+id/butt_xiaoliang"
+                         android:padding="20dp"
+                         android:text="原价:1998"
+                         android:textColor="#DA2727"
+                         android:textSize="12sp" />
+
+                 </RelativeLayout>
+             </LinearLayout>
+
+             <View
+                 android:background="#C1C1C1"
+                 android:layout_width="match_parent"
+                 android:layout_height="2dp"/>
+
+
+             <LinearLayout
+                 android:layout_marginTop="200dp"
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <TextView
+                     android:text="商品介绍"
+                     android:gravity="center"
+                     android:textSize="23sp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content" />
+
+                 <TextView
+                     android:id="@+id/sc_jiehsao"
+                     android:text="商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介商品介绍"
+                     android:textSize="15sp"
+                     android:padding="200dp"
+                     android:maxLines="2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" />
+
+                 <View
+                     android:background="#C1C1C1"
+                     android:layout_marginTop="20dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="2dp"/>
+
+
+                 <Button
+                     android:id="@+id/butt_chakan"
+                     android:text="查看图文详情"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="200dp"
+                     android:background="@drawable/a10"
+                     android:padding="20dp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="200dp" />
+                 <ListView
+                     android:id="@+id/webview"
+                     android:visibility="gone"
+                     android:layout_marginTop="200dp"
+                     android:layout_width="match_parent"
+                     android:minHeight="100dp"
+                     android:layout_height="6655dp"/>
+
+             </LinearLayout>
+
+
+
+         </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <Button android:text="领卷儿"
+        android:id="@+id/button_lingjuan"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:onClick="showUrl"
+        android:background="#FF3F1B"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

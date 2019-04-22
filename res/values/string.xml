@@ -62,32 +62,5 @@
     <string name="chaoyue">超越杯编程大赛决赛直播</string>
     <string name="suggestion">反馈建议</string>
     <string name="ddgl">订单管理</string>
-
-    <string-array name="sync_tech_array">
-        <item>本地教材</item>
-        <item>在线教材</item>
-    </string-array>
-    <string-array name="best_head_array">
-        <item>游戏列表</item>
-        <item>奖励记录</item>
-        <item>最强排名</item>
-    </string-array>
-    <string-array name="download_array">
-        <item>正在下载</item>
-        <item>已下载</item>
-    </string-array>
-    <string-array name="exam_array">
-        <item>模拟考场</item>
-        <item>考试成绩</item>
-        <item>答案解析</item>
-    </string-array>
-    <string-array name="famous_book_array">
-        <item>本地书城</item>
-        <item>在线书城</item>
-    </string-array>
-    <string-array name="setting_array">
-        <item>主题色</item>
-        <item>字体大小</item>
-        <item>帮助</item>
-    </string-array>
+    <string name="updatecontent">1.修复BUG\n2.优化界面\n3.向天空大声的呼喊说声妈卖批\n4.欢迎大家Star和提issue</string>
 </resources>

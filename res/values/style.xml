@@ -10,5 +10,4 @@
         <item name="android:textSize">@dimen/txt_h3</item>
         <item name="android:textColor">@color/white</item>
     </style>
-    
 </resources>

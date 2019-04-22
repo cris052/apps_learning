@@ -1,8 +1,461 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/white" >
-
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"       
+              android:background="@color/white"
+              android:orientation="vertical">
 
-</RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="我的"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#888"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <View
+                android:background="#888"
+                android:layout_width="match_parent"
+                android:layout_height="1px"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/gray"/>
+            <View
+                android:background="#888"
+                android:layout_width="match_parent"
+                android:layout_height="1px"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp" >
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/grzy_icon_article_public" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/gywm_icon_tiaozhuan_night" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imageView2"
+                    android:gravity="center_vertical|left"
+                    android:text="公开文章"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <View
+                android:background="#888"
+                android:layout_width="match_parent"
+                android:layout_height="1px"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/grzy_icon_article_secret" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/gywm_icon_tiaozhuan_night" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:gravity="center_vertical|left"
+                    android:text="私密文章"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <View
+                android:background="#888"
+                android:layout_width="match_parent"
+                android:layout_height="1px"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp" >
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/grzy_icon_mark" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/gywm_icon_tiaozhuan_night" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imageView3"
+                    android:gravity="center_vertical|left"
+                    android:text="我的收藏"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <View
+                android:background="#888"
+                android:layout_width="match_parent"
+                android:layout_height="1px"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp" >
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/grzy_icon_like_normal" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/gywm_icon_tiaozhuan_night" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imageView4"
+                    android:gravity="center_vertical|left"
+                    android:text="喜欢的文章"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <View
+                android:background="#888"
+                android:layout_width="match_parent"
+                android:layout_height="1px"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp" >
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="15dp"
+                    android:src="@mipmap/icon_zhuanti_night" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/gywm_icon_tiaozhuan_night" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imageView5"
+                    android:gravity="center_vertical|left"
+                    android:text="我的专题"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <View
+                android:background="#888"
+                android:layout_width="match_parent"
+                android:layout_height="1px"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp" >
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/icon_wenji_night" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/gywm_icon_tiaozhuan_night" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imageView6"
+                    android:gravity="center_vertical|left"
+                    android:text="我的文集"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <View
+                android:background="#888"
+                android:layout_width="match_parent"
+                android:layout_height="1px"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp" >
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/grzy_icon_wallet_normal" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/gywm_icon_tiaozhuan_night" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imageView7"
+                    android:gravity="center_vertical|left"
+                    android:text="我的钱包"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <View
+                android:background="#888"
+                android:layout_width="match_parent"
+                android:layout_height="1px"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp" >
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/grzy_icon_night" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/gywm_icon_tiaozhuan_night" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imageView8"
+                    android:gravity="center_vertical|left"
+                    android:text="夜间模式"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <View
+                android:background="#888"
+                android:layout_width="match_parent"
+                android:layout_height="1px"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <ImageView
+                    android:src="@mipmap/icon_history"
+                    android:padding="10dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+                <TextView
+                    android:text="浏览记录"
+                    android:gravity="center_vertical|left"
+                    android:textSize="15sp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"/>
+                <ImageView
+                    android:src="@mipmap/gywm_icon_tiaozhuan_night"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+            </RelativeLayout>
+            <View
+                android:background="#888"
+                android:layout_width="match_parent"
+                android:layout_height="1px"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <ImageView
+                    android:src="@mipmap/zw_icon_collectionsettings"
+                    android:padding="10dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+                <TextView
+                    android:text="通用设置"
+                    android:gravity="center_vertical|left"
+                    android:textSize="15sp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"/>
+                <ImageView
+                    android:src="@mipmap/gywm_icon_tiaozhuan_night"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+            </RelativeLayout>
+            <View
+                android:background="#888"
+                android:layout_width="match_parent"
+                android:layout_height="1px"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <ImageView
+                    android:src="@mipmap/grzy_icon_share_app"
+                    android:padding="10dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+                <TextView
+                    android:text="分享简书"
+                    android:gravity="center_vertical|left"
+                    android:textSize="15sp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"/>
+                <ImageView
+                    android:src="@mipmap/gywm_icon_tiaozhuan_night"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+            </RelativeLayout>
+            <View
+                android:background="#888"
+                android:layout_width="match_parent"
+                android:layout_height="1px"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <ImageView
+                    android:src="@mipmap/grzy_icon_feedback"
+                    android:padding="10dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+                <TextView
+                    android:text="意见反馈"
+                    android:gravity="center_vertical|left"
+                    android:textSize="15sp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"/>
+                <ImageView
+                    android:src="@mipmap/gywm_icon_tiaozhuan_night"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+            </RelativeLayout>
+            <View
+                android:background="#888"
+                android:layout_width="match_parent"
+                android:layout_height="1px"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <ImageView
+                    android:src="@mipmap/grzy_icon_rate"
+                    android:padding="10dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+                <TextView
+                    android:text="觉得不错，给个好评吧！"
+                    android:gravity="center_vertical|left"
+                    android:textSize="15sp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"/>
+                <ImageView
+                    android:src="@mipmap/gywm_icon_tiaozhuan_night"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+            </RelativeLayout>
+            <View
+                android:background="#888"
+                android:layout_width="match_parent"
+                android:layout_height="1px"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
