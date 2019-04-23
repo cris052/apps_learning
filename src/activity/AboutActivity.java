@@ -13,6 +13,7 @@ import android.os.Bundle;
 //import android.widget.TextView;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -20,6 +21,7 @@ public class AboutActivity extends Activity implements OnClickListener{
 //	private TextView tv_01;
 	private ImageView iv_title;
 	private TextView tv_intr;
+	private Button button2;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -29,6 +31,8 @@ public class AboutActivity extends Activity implements OnClickListener{
         iv_title.setOnClickListener(this);
         tv_intr=(TextView) findViewById(R.id.tv_intr);
         tv_intr.setOnClickListener(this);
+        button2=(Button) findViewById(R.id.button2);
+        button2.setOnClickListener(this);
 	}
 	
 	public void onClick(View v) {
@@ -43,6 +47,11 @@ public class AboutActivity extends Activity implements OnClickListener{
 			Intent intent2=new Intent();
 			intent2.setClass(this,FindPwdActivity.class);
 			startActivity(intent2);
+			break;
+		case R.id.button2:
+			Intent intent3=new Intent();
+			intent3.setClass(this,UpdateActivity.class);
+			startActivity(intent3);
 			break;
 		default:
 			break;

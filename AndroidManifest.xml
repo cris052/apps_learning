@@ -35,6 +35,8 @@
         <activity android:name="activity.ChargeActivity" />
         <activity android:name="activity.FriendsListActivity" />
         <activity android:name="activity.SychActivity" />
+        <activity android:name="activity.UpdateActivity" />
+        <activity android:name="activity.PaymentActivity" />
     </application>
 
 </manifest>

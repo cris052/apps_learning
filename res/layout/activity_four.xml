@@ -14,75 +14,78 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_behavior="@string/app_name">
-
+
          <LinearLayout
-             android:orientation="vertical"
              android:layout_width="match_parent"
-             android:layout_height="match_parent">
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
 
              <ImageView
                  android:id="@+id/sh_pic"
-                 android:src="@mipmap/tmall_ico"
-                 android:scaleType="fitXY"
                  android:layout_width="match_parent"
-                 android:layout_height="200dp" />
-
+                 android:layout_height="180dp"
+                 android:layout_weight="0.04"
+                 android:scaleType="fitXY"
+                 android:src="@mipmap/tmall_ico" />
 
              <LinearLayout
-                 android:orientation="vertical"
                  android:layout_width="match_parent"
-                 android:layout_height="wrap_content">
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical" >
+
                  <TextView
                      android:id="@+id/butt_name"
-                     android:padding="20dp"
-                     android:textSize="15sp"
-                     android:textColor="#000000"
-                     android:text="商品介绍"
                      android:layout_width="match_parent"
-                     android:layout_height="wrap_content" />
+                     android:layout_height="wrap_content"
+                     android:padding="20dp"
+                     android:text="课程介绍
+3D精密模型全景班
+支持随到随学，11月12日过期"
+                     android:textColor="#000000"
+                     android:textSize="15sp" />
 
                  <LinearLayout
-                     android:orientation="horizontal"
                      android:layout_width="match_parent"
-                     android:layout_height="wrap_content">
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal" >
 
                      <TextView
                          android:id="@+id/butt_yuanjia"
-                         android:padding="20dp"
-                         android:textColor="#DA2727"
-                         android:textSize="15sp"
-                         android:text="优惠券:999.00"
                          android:layout_width="wrap_content"
-                         android:layout_height="wrap_content" />
+                         android:layout_height="wrap_content"
+                         android:padding="20dp"
+                         android:text="优惠券:10.00"
+                         android:textColor="#DA2727"
+                         android:textSize="15sp" />
+
                      <TextView
                          android:id="@+id/butt_jiage"
-                         android:padding="20dp"
-                         android:textSize="22sp"
-                         android:textColor="#DA2727"
-                         android:text="现价:￥998"
                          android:layout_width="wrap_content"
-                         android:layout_height="wrap_content" />
-
+                         android:layout_height="wrap_content"
+                         android:padding="20dp"
+                         android:text="现价:￥198"
+                         android:textColor="#DA2727"
+                         android:textSize="22sp" />
                  </LinearLayout>
 
-
                  <RelativeLayout
-                     android:orientation="horizontal"
                      android:layout_width="match_parent"
-                     android:layout_height="wrap_content">
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal" >
+
                      <TextView
                          android:id="@+id/butt_xiaoliang"
-                         android:padding="20dp"
-                         android:text="月销量:300000"
                          android:layout_width="wrap_content"
-                         android:layout_height="wrap_content" />
-
+                         android:layout_height="wrap_content"
+                         android:padding="20dp"
+                         android:text="月销量:300000" />
+
                      <TextView
                          android:id="@+id/butt_fuw"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:layout_alignParentRight="true"
-                         android:padding="200dp"
+                         android:padding="180dp"
                          android:text="服务分:4.9" />
 
                      <TextView
@@ -90,78 +93,74 @@
                          android:layout_width="318dp"
                          android:layout_height="wrap_content"
                          android:layout_alignParentRight="true"
-                         android:layout_below="@+id/butt_xiaoliang"
+                         android:layout_alignParentTop="true"
+                         android:layout_marginTop="42dp"
                          android:padding="20dp"
-                         android:text="原价:1998"
+                         android:text="原价:208"
                          android:textColor="#DA2727"
-                         android:textSize="12sp" />
-
+                         android:textSize="14sp" />
                  </RelativeLayout>
              </LinearLayout>
 
-             <View
-                 android:background="#C1C1C1"
-                 android:layout_width="match_parent"
-                 android:layout_height="2dp"/>
-
-
              <LinearLayout
-                 android:layout_marginTop="200dp"
-                 android:orientation="vertical"
                  android:layout_width="match_parent"
-                 android:layout_height="match_parent">
+                 android:layout_height="match_parent"
+                 android:layout_marginTop="200dp"
+                 android:orientation="vertical" >
 
                  <TextView
-                     android:text="商品介绍"
-                     android:gravity="center"
-                     android:textSize="23sp"
                      android:layout_width="match_parent"
-                     android:layout_height="wrap_content" />
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:text="商品介绍"
+                     android:textSize="23sp" />
 
                  <TextView
                      android:id="@+id/sc_jiehsao"
-                     android:text="商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介商品介绍"
-                     android:textSize="15sp"
-                     android:padding="200dp"
-                     android:maxLines="2"
                      android:layout_width="wrap_content"
-                     android:layout_height="wrap_content" />
+                     android:layout_height="wrap_content"
+                     android:maxLines="2"
+                     android:padding="200dp"
+                     android:text="商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介商品介绍"
+                     android:textSize="15sp" />
 
                  <View
-                     android:background="#C1C1C1"
-                     android:layout_marginTop="20dp"
                      android:layout_width="match_parent"
-                     android:layout_height="2dp"/>
-
+                     android:layout_height="2dp"
+                     android:layout_marginTop="20dp"
+                     android:background="#C1C1C1" />
 
                  <Button
                      android:id="@+id/butt_chakan"
-                     android:text="查看图文详情"
+                     android:layout_width="wrap_content"
+                     android:layout_height="200dp"
                      android:layout_gravity="center"
                      android:layout_marginTop="200dp"
                      android:background="@drawable/a10"
                      android:padding="20dp"
-                     android:layout_width="wrap_content"
-                     android:layout_height="200dp" />
+                     android:text="查看图文详情" />
+
                  <ListView
                      android:id="@+id/webview"
-                     android:visibility="gone"
-                     android:layout_marginTop="200dp"
                      android:layout_width="match_parent"
+                     android:layout_height="6655dp"
+                     android:layout_marginTop="200dp"
                      android:minHeight="100dp"
-                     android:layout_height="6655dp"/>
-
+                     android:visibility="gone" >
+                 </ListView>
              </LinearLayout>
 
-
-
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="2dp"
+                 android:background="#C1C1C1" />
          </LinearLayout>
 
         </ScrollView>
 
     </LinearLayout>
 
-    <Button android:text="领卷儿"
+    <Button android:text="领券儿"
         android:id="@+id/button_lingjuan"
         android:layout_width="match_parent"
         android:layout_alignParentBottom="true"

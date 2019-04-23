@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout_focus"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/include11dsw"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffff"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/et_searchs1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="16"
+                android:background="#EDEBEB"
+                android:gravity="center_vertical"
+                android:hint="点击右侧放大镜进行搜索哦"
+                android:padding="20dp"
+                android:textSize="14.0sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/daohangbg"
+                android:visibility="visible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include11dsw"
+        android:background="#ffff"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_searchs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="#EDEBEB"
+            android:gravity="center_vertical"
+            android:hint="请输入搜索内容"
+            android:padding="20dp"
+            android:textSize="14.0sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="搜索" />
+
+    </LinearLayout>
+
+</RelativeLayout>

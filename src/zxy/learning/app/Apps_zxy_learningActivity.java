@@ -13,6 +13,7 @@ import activity.FindPwdActivity;
 import activity.FriendsListActivity;
 import activity.LoginActivity;
 import activity.MyDownloadActivity;
+import activity.PaymentActivity;
 import activity.SychActivity;
 import android.app.Activity;
 import android.content.Intent;
@@ -104,7 +105,7 @@ public class Apps_zxy_learningActivity extends Activity implements OnPageChangeL
 			break;
 		case R.id.button2:
 			Intent intent2=new Intent();
-			intent2.setClass(this,LoginActivity.class);
+			intent2.setClass(this,PaymentActivity.class);
 			startActivity(intent2);
 			break;
 		case R.id.button3:
