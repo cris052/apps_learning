@@ -125,12 +125,12 @@ public class Apps_zxy_learningActivity extends Activity implements OnPageChangeL
 			break;
 		case R.id.button6:
 			Intent intent6=new Intent();
-			intent6.setClass(this,FindPwdActivity.class);
+			intent6.setClass(this,ExamActivity.class);
 			startActivity(intent6);
 			break;
 		case R.id.button7:
 			Intent intent7=new Intent();
-			intent7.setClass(this,FriendsListActivity.class);
+			intent7.setClass(this,MyDownloadActivity.class);
 			startActivity(intent7);
 			break;
 		case R.id.button8:

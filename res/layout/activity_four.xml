@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout 
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -14,10 +17,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_behavior="@string/app_name">
-
+
          <LinearLayout
              android:layout_width="match_parent"
-             android:layout_height="match_parent"
+             android:layout_height="1459dp"
              android:orientation="vertical" >
 
              <ImageView
@@ -79,15 +82,16 @@
                          android:layout_height="wrap_content"
                          android:padding="20dp"
                          android:text="月销量:300000" />
-
+
                      <TextView
                          android:id="@+id/butt_fuw"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
+                         android:layout_alignBottom="@+id/butt_xianjia"
                          android:layout_alignParentRight="true"
                          android:padding="180dp"
                          android:text="服务分:4.9" />
-
+
                      <TextView
                          android:id="@+id/butt_xianjia"
                          android:layout_width="318dp"
@@ -99,30 +103,90 @@
                          android:text="原价:208"
                          android:textColor="#DA2727"
                          android:textSize="14sp" />
+
                  </RelativeLayout>
              </LinearLayout>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="81dp"
+                 android:layout_weight="0.01"
+                 android:gravity="center"
+                 android:text="课程介绍"
+                 android:textColor="@color/black"
+                 android:textSize="23sp" />
+             
+             <TextView
+                     android:id="@+id/butt_name"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:padding="20dp"
+                     android:text="历时三年、专注消防、匠心独运、潜心研发。打破教学中千篇一律的平面图片讲解，突破性的采用立体精密模型动态展示，全方位无死角学透每一个设施组件，进入内部探究最深层次的工作原理，精细到每一颗螺丝、每一个孔洞，感受工业设计之底蕴。让消防学习进入新纪元，足不出户即可具备现场工作经验，轻松通过消防考试。"
+                     android:textColor="#000000"
+                     android:textSize="15sp" />
 
+             <TextView
+                     android:id="@+id/butt_name"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:padding="20dp"
+                     android:text="老师介绍"
+                     android:textColor="#000000"
+                     android:textSize="15sp" />
+
+             <Button
+                 android:id="@+id/button1"
+                 android:layout_width="62dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.00"
+                 android:background="@color/white"
+                 android:text="微微" />
+
+             <TextView
+                     android:id="@+id/butt_name"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:padding="20dp"
+                     android:text="90后网红消防讲师，被多家电台媒体采访，腾讯视频报道，双证认证讲师"
+                     android:textColor="#000000"
+                     android:textSize="15sp" />
+             <TextView
+                     android:id="@+id/butt_name"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:padding="20dp"
+                     android:text="稳稳学馆--柠檬"
+                     android:textColor="#000000"
+                     android:textSize="15sp" />
+             
+             <TextView
+                     android:id="@+id/butt_name"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:padding="20dp"
+                     android:text="稳稳消防团队授课老师，国家一级注册消防工程师，90后海归美女讲师"
+                     android:textColor="#000000"
+                     android:textSize="15sp" />
+
+             <Button
+                 android:id="@+id/butt_chakan"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="80dp"
+                 android:layout_weight="0.95"
+                 android:background="@mipmap/a3"
+                 android:gravity="top|center"
+                 android:padding="20dp"
+                 android:text="查看图文详情"
+                 android:textSize="@dimen/txt_h2" 
+                 android:textColor="@color/red"/>
+
              <LinearLayout
                  android:layout_width="match_parent"
                  android:layout_height="match_parent"
                  android:layout_marginTop="200dp"
+                 android:layout_weight="0.05"
                  android:orientation="vertical" >
-
-                 <TextView
-                     android:layout_width="match_parent"
-                     android:layout_height="wrap_content"
-                     android:gravity="center"
-                     android:text="商品介绍"
-                     android:textSize="23sp" />
-
-                 <TextView
-                     android:id="@+id/sc_jiehsao"
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:maxLines="2"
-                     android:padding="200dp"
-                     android:text="商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍商品介商品介绍"
-                     android:textSize="15sp" />
 
                  <View
                      android:layout_width="match_parent"
@@ -130,43 +194,23 @@
                      android:layout_marginTop="20dp"
                      android:background="#C1C1C1" />
 
-                 <Button
-                     android:id="@+id/butt_chakan"
-                     android:layout_width="wrap_content"
-                     android:layout_height="200dp"
-                     android:layout_gravity="center"
-                     android:layout_marginTop="200dp"
-                     android:background="@drawable/a10"
-                     android:padding="20dp"
-                     android:text="查看图文详情" />
-
-                 <ListView
-                     android:id="@+id/webview"
-                     android:layout_width="match_parent"
-                     android:layout_height="6655dp"
-                     android:layout_marginTop="200dp"
-                     android:minHeight="100dp"
-                     android:visibility="gone" >
-                 </ListView>
              </LinearLayout>
 
-             <View
+             <Button
+                 android:id="@+id/button_lingjuan"
                  android:layout_width="match_parent"
-                 android:layout_height="2dp"
-                 android:background="#C1C1C1" />
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.04"
+                 android:background="#FF3F1B"
+                 android:text="领券购买"
+                 android:textColor="#ffffff"
+                 android:textSize="18sp" />
+
          </LinearLayout>
 
         </ScrollView>
 
     </LinearLayout>
-
-    <Button android:text="领券儿"
-        android:id="@+id/button_lingjuan"
-        android:layout_width="match_parent"
-        android:layout_alignParentBottom="true"
-        android:textColor="#ffffff"
-        android:textSize="18sp"
-        android:onClick="showUrl"
-        android:background="#FF3F1B"
-        android:layout_height="wrap_content" />
 </RelativeLayout>
+
+</ScrollView>

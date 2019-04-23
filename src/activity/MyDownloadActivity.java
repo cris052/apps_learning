@@ -9,6 +9,6 @@ public class MyDownloadActivity extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.sync_tech);
+		setContentView(R.layout.my_download);
 	}
 }
