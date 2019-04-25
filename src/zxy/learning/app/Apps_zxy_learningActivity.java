@@ -14,6 +14,7 @@ import activity.FriendsListActivity;
 import activity.LoginActivity;
 import activity.MyDownloadActivity;
 import activity.PaymentActivity;
+import activity.ClassActivity;
 import activity.SychActivity;
 import android.app.Activity;
 import android.content.Intent;
@@ -100,7 +101,7 @@ public class Apps_zxy_learningActivity extends Activity implements OnPageChangeL
 			break;
 		case R.id.button1:
 			Intent intent=new Intent();
-			intent.setClass(this,SychActivity.class);
+			intent.setClass(this,ClassActivity.class);
 			startActivity(intent);
 			break;
 		case R.id.button2:
@@ -140,7 +141,7 @@ public class Apps_zxy_learningActivity extends Activity implements OnPageChangeL
 			break;
 		case R.id.button9:
 			Intent intent9=new Intent();
-			intent9.setClass(this,AboutActivity.class);
+			intent9.setClass(this,SychActivity.class);
 			startActivity(intent9);
 			break;
 		default:

@@ -1,92 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal" 
+<?xml version="1.0" encoding="utf-8"?><LinearLayout      xmlns:android="http://schemas.android.com/apk/res/android"     android:layout_width="match_parent"    android:layout_height="fill_parent"    android:background="@color/white"    android:orientation="vertical">
+    <LinearLayout        xmlns:android="http://schemas.android.com/apk/res/android"        android:layout_width="match_parent"        android:layout_height="158dp"        android:background="@color/white"        android:orientation="horizontal" >        <ImageView            android:id="@+id/ImageView02"            android:layout_width="125dp"            android:layout_height="125dp"            android:background="@color/gray"            android:padding="3dp"            android:src="@mipmap/tmall_ico" />        <RelativeLayout            android:layout_width="match_parent"            android:layout_height="100dp"            android:layout_margin="8dp" >            <LinearLayout                android:id="@+id/LinearLayout04"                android:layout_width="match_parent"                android:layout_height="wrap_content"                android:orientation="horizontal" >                <TextView                    android:id="@+id/TextView09"                    android:layout_width="match_parent"                    android:layout_height="wrap_content"                    android:layout_margin="3dp"                    android:layout_marginRight="20dp"                    android:maxLines="2"                    android:text="稳稳消防【3D精密模型内部构造动态展示班】"                    android:textColor="#000000"                    android:textSize="11sp" />            </LinearLayout>            <LinearLayout                android:id="@+id/LinearLayout03"                android:layout_width="match_parent"                android:layout_height="wrap_content"                android:layout_alignParentBottom="true" >                <TextView                    android:id="@+id/TextView10"                    android:layout_width="wrap_content"                    android:layout_height="wrap_content"                    android:layout_weight="1"                    android:drawableLeft="@mipmap/quan_icon"                    android:text="10元"                    android:textColor="#FD8144" />                <RelativeLayout                    android:layout_width="wrap_content"                    android:layout_height="wrap_content"                    android:layout_weight="0.1" >                    <TextView                        android:id="@+id/TextView12"                        android:layout_width="wrap_content"                        android:layout_height="wrap_content"                        android:gravity="center"                        android:text="208.00" />                    <TextView                        android:layout_width="wrap_content"                        android:layout_height="wrap_content"                        android:layout_marginLeft="2dp"                        android:gravity="center"                        android:text="--------" />                </RelativeLayout>                <TextView                    android:id="@+id/TextView11"                    android:layout_width="wrap_content"                    android:layout_height="wrap_content"                    android:layout_weight="1"                    android:text="¥198.00"                    android:textColor="#FD8144"                    android:textSize="14sp" />            </LinearLayout>            <TextView                android:id="@+id/TextView08"                android:layout_width="wrap_content"                android:layout_height="wrap_content"                android:layout_alignParentLeft="true"                android:layout_centerVertical="true"                android:text="月销2000"                android:textSize="10sp" />            <TextView                android:id="@+id/TextView07"                android:layout_width="wrap_content"                android:layout_height="20dp"                android:layout_alignParentRight="true"                android:layout_centerVertical="true"                android:layout_weight="1"                android:text="评分:4.9"                android:textSize="10sp" />        </RelativeLayout>    </LinearLayout>
+    <LinearLayout        xmlns:android="http://schemas.android.com/apk/res/android"        android:layout_width="match_parent"        android:layout_height="158dp"        android:background="@color/white"        android:orientation="horizontal" >        <ImageView            android:id="@+id/ImageView01"            android:layout_width="125dp"            android:layout_height="125dp"            android:background="@color/gray"            android:padding="3dp"            android:src="@mipmap/a1" />        <RelativeLayout            android:layout_width="match_parent"            android:layout_height="100dp"            android:layout_margin="8dp" >            <LinearLayout                android:id="@+id/LinearLayout02"                android:layout_width="match_parent"                android:layout_height="wrap_content"                android:orientation="horizontal" >                <TextView                    android:id="@+id/TextView03"                    android:layout_width="match_parent"                    android:layout_height="wrap_content"                    android:layout_margin="3dp"                    android:layout_marginRight="20dp"                    android:maxLines="2"                    android:text="Java架构师,java高级课|只为培养互联网java架构师【咕泡教育】"                    android:textColor="#000000"                    android:textSize="11sp" />            </LinearLayout>            <LinearLayout                android:id="@+id/LinearLayout01"                android:layout_width="match_parent"                android:layout_height="wrap_content"                android:layout_alignParentBottom="true" >                <TextView                    android:id="@+id/TextView04"                    android:layout_width="wrap_content"                    android:layout_height="wrap_content"                    android:layout_weight="1"                    android:drawableLeft="@mipmap/quan_icon"                    android:text="50元"                    android:textColor="#FD8144" />                <RelativeLayout                    android:layout_width="wrap_content"                    android:layout_height="wrap_content"                    android:layout_weight="0.1" >                    <TextView                        android:id="@+id/TextView06"                        android:layout_width="wrap_content"                        android:layout_height="wrap_content"                        android:gravity="center"                        android:text="1058.00" />                    <TextView                        android:layout_width="wrap_content"                        android:layout_height="wrap_content"                        android:layout_marginLeft="2dp"                        android:gravity="center"                        android:text="--------" />                </RelativeLayout>                <TextView                    android:id="@+id/TextView05"                    android:layout_width="wrap_content"                    android:layout_height="wrap_content"                    android:layout_weight="1"                    android:text="¥1008.00"                    android:textColor="#FD8144"                    android:textSize="14sp" />            </LinearLayout>            <TextView                android:id="@+id/TextView02"                android:layout_width="wrap_content"                android:layout_height="wrap_content"                android:layout_alignParentLeft="true"                android:layout_centerVertical="true"                android:text="月销1980"                android:textSize="10sp" />            <TextView                android:id="@+id/TextView01"                android:layout_width="wrap_content"                android:layout_height="20dp"                android:layout_alignParentRight="true"                android:layout_centerVertical="true"                android:layout_weight="1"                android:text="评分:4.8"                android:textSize="10sp" />        </RelativeLayout>    </LinearLayout><LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/white">
+    android:layout_height="158dp"
+    android:background="@color/white"
+    android:orientation="horizontal" >
 
     <ImageView
         android:id="@+id/image_item"
         android:padding="3dp" 
-        android:src="@mipmap/tmall_ico"
+        android:src="@mipmap/a2"
         android:layout_width="125dp" 
         android:background="@color/gray"
         android:layout_height="125dp" />
-
+
     <RelativeLayout
-        android:layout_margin="8dp"
-        android:layout_width="match_parent" android:layout_height="100dp">
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="8dp" >
 
         <LinearLayout
             android:id="@+id/buju1"
-            android:orientation="horizontal" android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
 
             <TextView
-                android:id="@+id/sp_title"  android:layout_width="match_parent"
-                android:layout_margin="3dp"  android:text="稳稳消防【3D精密模型内部构造动态展示班】"
-                android:textColor="#000000" android:textSize="11sp"
+                android:id="@+id/sp_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_marginRight="20dp"
                 android:maxLines="2"
-                android:layout_marginRight="20dp" android:layout_height="wrap_content" />
+                android:text="U3D游戏开发第一季：从零开始学C#"
+                android:textColor="#000000"
+                android:textSize="11sp" />
         </LinearLayout>
 
-        <TextView
-            android:text="月销2000" android:layout_below="@+id/buju1"
-            android:id="@+id/sp_xiaoliang"
-            android:layout_width="wrap_content"    android:textSize="10sp"
-            android:layout_height="wrap_content"  android:layout_marginTop="10dp"/>
-
-        <TextView
-            android:text="评分:4.9" android:layout_alignParentRight="true"
-            android:layout_below="@+id/buju1"   android:id="@+id/sp_pingfen"
-            android:layout_width="wrap_content"    android:textSize="10sp"
-            android:layout_height="wrap_content"  android:layout_marginTop="10dp"/>
-
         <LinearLayout
-            android:layout_alignParentBottom="true"
+            android:id="@+id/linearLayout1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
 
             <TextView
-                android:text="10元"
-                android:layout_weight="1"
-                android:textColor="#FD8144"
-                android:drawableLeft="@mipmap/quan_icon"
+                android:id="@+id/sp_juan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/sp_juan" />
+                android:layout_weight="1"
+                android:drawableLeft="@mipmap/quan_icon"
+                android:text="80元"
+                android:textColor="#FD8144" />
 
             <RelativeLayout
-                    android:layout_weight="0.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" >
+
+                <TextView
+                    android:id="@+id/sp_yuanjia"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="580.00" />
 
-                    <TextView
-                        android:text="208.00"
-                        android:gravity="center"
-                        android:id="@+id/sp_yuanjia"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center"
+                    android:text="--------" />
+            </RelativeLayout>
 
-                    <TextView
-                        android:text="--------"
-                        android:gravity="center"
-                        android:layout_marginLeft="2dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-                </RelativeLayout>
-
             <TextView
                 android:id="@+id/sp_xianjia"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="¥198.00"
+                android:layout_height="wrap_content"
+                android:text="¥500.00"
                 android:textColor="#FD8144"
                 android:textSize="14sp" />
 
         </LinearLayout>
-    </RelativeLayout>
-   
-    
-</LinearLayout>
 
+        <TextView
+            android:id="@+id/sp_xiaoliang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="月销10000"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/sp_pingfen"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:text="评分:4.9"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+    
+</LinearLayout></LinearLayout>

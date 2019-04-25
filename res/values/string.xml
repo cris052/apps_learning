@@ -8,8 +8,7 @@
     <string name="exam_room">课程购买</string>
     <string name="famous_book">文学名著</string>
     <string name="best_head">最强大脑</string>
-    <string name="user_manager">个人
-中心</string>
+    <string name="user_manager">个人中心</string>
     <string name="add_account">充值</string>
     <string name="my_download">下载</string>
     <string name="sys_setting">设置</string>
@@ -63,5 +62,5 @@
     <string name="chaoyue">超越杯编程大赛决赛直播</string>
     <string name="suggestion">反馈建议</string>
     <string name="ddgl">订单管理</string>
-    <string name="updatecontent">1.修复BUG\n2.优化界面\n3.向天空大声的呼喊说声妈卖批\n4.欢迎大家Star和提issue</string>
+    <string name="updatecontent">全新版本，全新内容，带来更高效的找课与上课体验\n1.修复BUG\n2.优化界面\n【学员故事】你的同学，正在跟你一起努力学习\n【成果展示】好好学习，你也能做出一样优秀的作品！</string>
 </resources>

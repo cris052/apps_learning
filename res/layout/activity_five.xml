@@ -16,7 +16,7 @@
         android:orientation="vertical" >
 
         <TextView
-            android:id="@+id/tejia"
+            android:id="@+id/ps"
             android:layout_width="match_parent"
             android:layout_height="163dp"
             android:drawableTop="@mipmap/a2"
@@ -32,7 +32,7 @@
         android:visibility="visible" >
 
         <TextView
-            android:id="@+id/meiri"
+            android:id="@+id/bc"
             android:layout_width="match_parent"
             android:layout_height="206dp"
             android:drawableTop="@mipmap/a1"
@@ -47,7 +47,7 @@
         android:orientation="vertical" >
 
         <TextView
-            android:id="@+id/baokuan"
+            android:id="@+id/zy"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:drawableTop="@mipmap/a3"

@@ -37,6 +37,9 @@
         <activity android:name="activity.SychActivity" />
         <activity android:name="activity.UpdateActivity" />
         <activity android:name="activity.PaymentActivity" />
+        <activity android:name="activity.ClassActivity" />
+        <activity android:name="activity.ThreeActivity" />
+        
     </application>
 
 </manifest>
